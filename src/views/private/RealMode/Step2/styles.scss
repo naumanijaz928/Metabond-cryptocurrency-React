@@ -1,0 +1,25 @@
+.step2_main {
+  padding: 20px 70px;
+  margin-top: 40px;
+  h6 {
+    color: #626262;
+  }
+  .fields {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    // width: 1000px;
+    .textfield {
+      width: 400px;
+    }
+    .infoicon {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .fieldInfo {
+      width: 400px;
+      color: #a4a4a4;
+      // border: 1px solid black;
+    }
+  }
+}

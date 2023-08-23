@@ -1,0 +1,118 @@
+.step5_main {
+  padding: 15px;
+
+  .buttons {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    #yesBtn,
+    #noBtn {
+      margin-top: 10px;
+      width: 49%;
+      height: 56px;
+      border: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+
+      // outline: none;
+    }
+    #yesBtn {
+      color: #ffffff;
+      background: #ff56f6;
+      box-shadow: 0px 4px 8px rgba(255, 171, 109, 0.04);
+      border-radius: 56px;
+    }
+    #noBtn {
+      color: #ff56f6;
+      background: #ffffff;
+      box-shadow: 0px 4px 8px rgba(255, 171, 109, 0.04);
+      border-radius: 56px;
+    }
+  }
+  .simpletext {
+    text-align: center;
+    span {
+      cursor: pointer;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+
+      text-decoration-line: underline;
+      color: #ff56f6;
+    }
+  }
+  .fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .field1,
+    .field2 {
+      margin-top: 10px;
+      width: 50%;
+    }
+  }
+  .upload {
+    .fileupload {
+      cursor: pointer;
+      padding: 20px 0px 0px 0px;
+      height: 158px;
+      border: 2px dashed #a4a4a4;
+      box-sizing: border-box;
+      border-radius: 8px;
+      text-align: center;
+      p {
+        color: #a4a4a4;
+      }
+    }
+  }
+  .deployCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .card {
+      margin-top: 5px;
+      width: 320px;
+      height: 321.82px;
+      background: #ffffff;
+      box-shadow: 0px 4px 8px rgba(255, 86, 246, 0.04);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      .imagebox {
+        text-align: center;
+      }
+    }
+  }
+  div#registerBtn {
+    text-align: center;
+    margin-top: 40px;
+    .registerBtn {
+      margin: auto;
+      border: none;
+      font-size: large;
+      font-weight: 900;
+      color: #ffffff;
+      padding: 10px;
+      width: 288px;
+      height: 58px;
+      background: linear-gradient(
+        92.23deg,
+        #ff56f6 21.43%,
+        #b936ee 50.63%,
+        #3bace2 100%,
+        #406aff 117.04%
+      );
+      border-radius: 8px;
+    }
+  }
+}

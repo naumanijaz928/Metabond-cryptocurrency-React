@@ -1,0 +1,39 @@
+.step5_main {
+  padding: 15px;
+
+  .upload {
+    // width: 80%;
+    .fileupload {
+      color: #a4a4a4;
+      background: #fff;
+      cursor: pointer;
+      padding: 20px 0px 0px 0px;
+      height: 158px;
+      border: 2px dashed #a4a4a4;
+      box-sizing: border-box;
+      border-radius: 8px;
+      text-align: center;
+      p {
+        color: #a4a4a4;
+      }
+    }
+  }
+  .genBtn {
+    // position: absolute;
+    // right: 20px;
+    padding: 20px 35px;
+    background: linear-gradient(
+      92.23deg,
+      #ff56f6 21.43%,
+      #b936ee 50.63%,
+      #3bace2 100%,
+      #406aff 117.04%
+    );
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    outline: none;
+  }
+}

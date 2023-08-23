@@ -1,0 +1,140 @@
+section.section1 {
+  display: flex;
+  height: 600px;
+  overflow: hidden;
+  //   border: 1px solid black;
+  .left {
+    flex: 1;
+    //   width: 599px;
+    height: 599px;
+    border-radius: 12px;
+    background: url("../../../assets/Images/homeImage.png");
+    background-repeat: no-repeat;
+    // background-size: contain;
+  }
+  .right {
+    flex: 1;
+    .rightheading {
+      font-weight: bolder;
+      font-size: 38px;
+      background: linear-gradient(
+        92.23deg,
+        #ff56f6 21.43%,
+        #b936ee 50.63%,
+        #3bace2 100%,
+        #406aff 117.04%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      // line-height: 135.2%;
+      /* or 51px */
+    }
+    .reading {
+      padding: 1px 60px 0px 5px;
+
+      p {
+        color: #282828;
+      }
+    }
+  }
+}
+
+.midBtn {
+  position: relative;
+  height: 50px;
+  button.getStart {
+    background: linear-gradient(
+      92.23deg,
+      #ff56f6 21.43%,
+      #b936ee 50.63%,
+      #3bace2 100%,
+      #406aff 117.04%
+    );
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 18px;
+    position: absolute;
+    right: 38%;
+    clear: both;
+  }
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+  div.box {
+    width: 280px;
+    p.boxtitle {
+      font-weight: bold;
+    }
+    p.content {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      color: rgba(40, 40, 40, 0.5);
+    }
+  }
+  div#box4 {
+    span {
+      width: 120px;
+      //   border: 1px solid black;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+footer {
+  margin-top: 20px;
+  .footertext {
+    text-align: right;
+  }
+}
+
+.modaldata {
+  padding: 10px;
+  h3 {
+    text-align: center;
+  }
+  div.modes {
+    display: flex;
+    justify-content: space-between;
+    .mode1,
+    .mode2 {
+      width: 45%;
+      //   padding: 20px;
+      background: #f6f8fb;
+      box-shadow: 0px 4px 8px rgba(255, 86, 246, 0.04);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .div1 {
+        padding: 20px;
+      }
+      .btnDiv {
+        text-align: bottom;
+
+        button {
+          width: 100%;
+          background: linear-gradient(
+            92.23deg,
+            #ff56f6 21.43%,
+            #b936ee 50.63%,
+            #3bace2 100%,
+            #406aff 117.04%
+          );
+          border: none;
+          padding: 18px;
+          border-radius: 8px;
+          color: #ffffff;
+          font-weight: bolder;
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}

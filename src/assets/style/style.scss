@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"),
+    url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+
+body {
+  background: #FFFFFF !important;
+  margin: 0;
+  font-family: "Rubik";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+.site-layout .site-layout-background {
+  background: #eeeeee;
+}
+.ant-layout {
+  height: 100vh;
+}

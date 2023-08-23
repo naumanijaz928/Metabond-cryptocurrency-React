@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+.tables {
+  position: relative;
+  width: 100%;
+}
+.padding {
+  background: white;
+  padding: 10px;
+  border-radius: 10px !important;
+}
+.table_main_head {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+.header_table {
+  display: flex;
+  justify-content: space-between;
+}
+.search_bar {
+  padding: 7px;
+}
+.search_icons {
+  display: flex;
+  justify-content: space-between;
+}
+.form-control {
+  border-bottom: none !important;
+}
+.icons {
+  font-size: 22px !important;
+  color: #000 !important;
+}
+.icons:hover {
+  background: #ede7f6;
+  border-radius: 50%;
+}
+table-body {
+  font-family: "Poppins", sans-serif !important;
+}
+//  Search Bar css Start From here
+.search_bar_css {
+  width: 250px;
+  height: 35px;
+  border: 1px solid #d5cedf;
+  background: #e3f2fd;
+  border-radius: 7px;
+  padding: 3px;
+  font-size: 12px !important;
+}
+.search_bar_css:focus-visible {
+  outline: none;
+}
+.search_icon_for_search{
+  border: none;
+  position: absolute;
+  margin-left: -83px;
+  height: 32px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 3px;
+  background: blue;
+  color: #fff;
+  width: 80px;
+}
+@media screen and (max-width: 832px) {
+  .search_bar_css {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search_bar_css {
+    width: 120px;
+  }
+}

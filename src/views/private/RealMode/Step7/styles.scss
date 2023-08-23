@@ -1,0 +1,44 @@
+.step7_main {
+  padding: 25px 65px;
+  .genBtn {
+    // position: absolute;
+    // right: 20px;
+    padding: 20px 35px;
+    background: linear-gradient(
+      92.23deg,
+      #ff56f6 21.43%,
+      #b936ee 50.63%,
+      #3bace2 100%,
+      #406aff 117.04%
+    );
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 400px;
+  }
+  .colorHeading {
+    font-weight: bolder;
+    font-size: 24px;
+    width: fit-content;
+    background: linear-gradient(
+      92.23deg,
+      #ff56f6 21.43%,
+      #b936ee 50.63%,
+      #3bace2 100%,
+      #406aff 117.04%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .cards {
+    img{
+      cursor: pointer;
+      &:hover{
+        border: 1px solid #ff56f6;
+      }
+    }
+  }
+}
